@@ -6,7 +6,7 @@ This project demonstrates how to build a **production‑style AI agent** using *
 
 ---
 
-## ✨ What This Agent Does
+## What This Agent Does
 
 1. Accepts structured inputs (resume + job description)
 2. Cleans and normalizes text
@@ -20,7 +20,7 @@ This is an **AI agent**, not a simple prompt.
 
 ---
 
-## 🧠 Agent Architecture (High Level)
+## Agent Architecture (High Level)
 
 ```
 Input → Clean → Validate → AI Analyze → Parse → AI Rewrite → Google Docs → Output
@@ -36,7 +36,7 @@ Key concepts used:
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 * **n8n** – workflow orchestration
 * **OpenAI (or compatible LLM)** – resume analysis & rewriting
@@ -45,7 +45,7 @@ Key concepts used:
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 Before running this workflow, you need:
 
@@ -60,7 +60,7 @@ Before running this workflow, you need:
 
 ---
 
-## 🔐 Google OAuth Setup (Summary)
+## Google OAuth Setup (Summary)
 
 1. Create a Google Cloud project
 2. Enable:
@@ -84,7 +84,7 @@ Before running this workflow, you need:
 
 ---
 
-## 🧩 Workflow Nodes (Step by Step)
+##  Workflow Nodes (Step by Step)
 
 ### 1️⃣ Edit Fields (Input Node)
 
